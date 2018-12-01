@@ -3,6 +3,8 @@ import "./App.css";
 import AppLayout from "./AppLayout";
 import { AppProvider } from "./AppProvider";
 import AppBar from "./AppBar";
+import Content from "../shared/Content";
+import Settings from "../Settings";
 
 class App extends Component {
   render() {
@@ -10,7 +12,9 @@ class App extends Component {
       <AppLayout>
         <AppProvider>
           <AppBar />
-          hello crypto price map
+          <Content>
+            <Settings />
+          </Content>
         </AppProvider>
       </AppLayout>
     );
