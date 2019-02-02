@@ -9,6 +9,7 @@
     "moment": "^2.22.2",
     "react": "16.5.2",
     "react-dom": "16.5.2",
+    "react-highcharts": "^16.0.1",
     "react-scripts": "2.0.3"
   },
   "scripts": {
